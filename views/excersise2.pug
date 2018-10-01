@@ -1,0 +1,32 @@
+extends ./layout/layoutExcersise
+
+block content
+    .header
+      p.logo
+        | Coders
+        span Tokyo
+      .menu
+        ul
+          li
+            a.add-word Add New Word
+            form.sub-menu(action="/my-vocabulary" method="POST") 
+              input(type='text', placeholder='Add New Word', name="word")
+              input(type='text', placeholder='Meaning', name="mean")
+              textarea(name='suggest', placeholder='Suggestion')
+              input(type='submit', value='+')
+          li
+            a(href='/my-vocabulary') My Vocabulary
+  
+    .excersise
+      p#type= data.type
+      h1= data.word.mean
+        span#result(style='display: none')= data.word.word
+      p Press Enter to submit
+      input#user-input(type='text', autofocus="true")
+      .right
+        i.fas.fa-check
+        span  Right
+      .wrong
+        i.fas.fa-times
+        span  Wrong
+

@@ -1,0 +1,154 @@
+{
+  "vocabulary": [
+    {
+      "id": "4iYcM0QEv",
+      "word": "accounting",
+      "mean": "sự tính toán, kế toán",
+      "suggest": "Chủ đề tài chính ngân hàng..."
+    },
+    {
+      "id": "OrShcxBBD",
+      "word": "balance",
+      "mean": "số dư tài khoản",
+      "suggest": "aa"
+    },
+    {
+      "id": "OHKcVn-87",
+      "word": "bureau de change",
+      "mean": "văn phòng quy đổi",
+      "suggest": ""
+    },
+    {
+      "id": "IYJonTX43",
+      "word": "cash",
+      "mean": "tiền mặt",
+      "suggest": ""
+    },
+    {
+      "id": "uSm3MX35o",
+      "word": "checking account",
+      "mean": "tài khoản séc, kiểm tra tài khoản",
+      "suggest": ""
+    },
+    {
+      "id": "hPBhP6IKn",
+      "word": "clerk",
+      "mean": "nhân viên bán hàng",
+      "suggest": ""
+    },
+    {
+      "id": "GV_ifFIgI",
+      "word": "currency",
+      "mean": "tiền tệ",
+      "suggest": ""
+    },
+    {
+      "id": "RY2FdWkBl",
+      "word": "debit card",
+      "mean": "thẻ ghi nợ",
+      "suggest": ""
+    },
+    {
+      "id": "ORJnsdQpF",
+      "word": "denomination",
+      "mean": "mệnh giá",
+      "suggest": ""
+    },
+    {
+      "id": "-0H0SNvmK",
+      "word": "deposit",
+      "mean": "tiền gửi",
+      "suggest": ""
+    },
+    {
+      "id": "BaPM8WJnA",
+      "word": "deposit ceiling",
+      "mean": "trần gửi",
+      "suggest": ""
+    },
+    {
+      "id": "acE_REmMe",
+      "word": "direct debit",
+      "mean": "ghi nợ trực tiếp",
+      "suggest": ""
+    },
+    {
+      "id": "yxHPVAe5G",
+      "word": "exchange rate",
+      "mean": "tỷ giá",
+      "suggest": ""
+    },
+    {
+      "id": "wsnEmrUtu",
+      "word": "interest",
+      "mean": "tiền lãi",
+      "suggest": ""
+    },
+    {
+      "id": "bX7-YZt0q",
+      "word": "interest rate",
+      "mean": "lãi suất",
+      "suggest": ""
+    },
+    {
+      "id": "b59u2xUtx",
+      "word": "loan",
+      "mean": "vay, vay tiền",
+      "suggest": ""
+    },
+    {
+      "id": "YScfzB2Sy",
+      "word": "mortgage",
+      "mean": "thế chấp",
+      "suggest": ""
+    },
+    {
+      "id": "b9ZDN9mie",
+      "word": "overdraft",
+      "mean": "vượt quá khoản chi",
+      "suggest": ""
+    },
+    {
+      "id": "ly85qbUzL",
+      "word": "payee",
+      "mean": "người trả tiền",
+      "suggest": ""
+    },
+    {
+      "id": "Ikun9GD0V",
+      "word": "remittance",
+      "mean": "chuyển tiền",
+      "suggest": ""
+    },
+    {
+      "id": "plawhcz_l",
+      "word": "savings account",
+      "mean": "tài khoản tiết kiệm",
+      "suggest": ""
+    },
+    {
+      "id": "RIABUDuLK",
+      "word": "standing order",
+      "mean": "lệnh trả tiền",
+      "suggest": ""
+    },
+    {
+      "id": "OKoCAuj3W",
+      "word": "statement",
+      "mean": "kê khai, tuyên bố",
+      "suggest": ""
+    },
+    {
+      "id": "20i2Ujjin",
+      "word": "tax",
+      "mean": "thuế",
+      "suggest": ""
+    },
+    {
+      "id": "WN7nxcGRu",
+      "word": "transfer",
+      "mean": "chuyển khoản",
+      "suggest": ""
+    }
+  ]
+}

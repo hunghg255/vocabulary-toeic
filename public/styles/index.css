@@ -1,0 +1,273 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+	text-shadow: 2px 2px 6px rgba(0,0,0,.1);
+	position: sticky;
+	background-color: white;
+	top:0;
+}
+
+.header .logo {
+	color: rgb(195,0,0);
+    border:  3px solid rgb(195,0,0);
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin: 8px 50px;
+    font-size: 35px;
+    padding-right: 0;
+    pointer-events: none;
+}
+
+.logo span {
+	background:  rgb(195,0,0);
+    color:  white;
+    margin-left:  10px;
+    padding: 3px 9px;
+}
+
+.header .title {
+	color: dodgerblue;
+	font-size: 32px;
+	margin: 0;
+	margin-left: 180px;
+	pointer-events: none;
+}
+
+.menu ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	position: relative;
+}
+
+.menu ul li {
+	padding-right: 20px;
+	margin-right: 5px;
+	
+}
+.menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 6px 10px;
+	border: 2px solid dodgerblue;
+	color: dodgerblue;
+	cursor: pointer;
+	user-select: none;
+}
+
+.menu ul li a:hover {
+	color: white;
+	background-color: dodgerblue;
+}
+
+.menu ul li .active {
+	transform: scaleY(1);
+}
+
+.sub-menu {
+	position: absolute;
+	width: 200px;
+	padding: 10px 10px;
+	box-shadow: 2px 2px 7px rgba(0,0,0,.1), -2px 2px 7px rgba(0,0,0,.1);
+	background-color: white;
+	top:55px;
+	left: -50px;
+	transform-origin: 50% 0%;
+	overflow: hidden;
+	transition: 250ms;
+	transform: scaleY(0);
+	
+}
+
+.sub-menu input[type="text"] {
+	margin-bottom: 10px;
+	padding: 6px;
+	padding-right: 6px;
+	font-size: 1.2em;
+	width: 91%;
+}
+
+::placeholder {
+	color: rgba(0,0,0,.2);
+	font-size: 16px;
+}
+.sub-menu textarea {
+	font-size: 1.2em;
+	font-family: sans-serif;
+	padding: 6px;
+	padding-right: 0;
+	height:40px;
+	width: 95%;
+	resize: none;
+}
+.sub-menu input[type="submit"] {
+	background-color: dodgerblue;
+	border: 1px solid dodgerblue;
+	border-radius: 3px;
+	padding: 2px;
+	font-size: 2rem;
+	width: 100%;
+	color: white;
+	margin-top: 5px;
+}
+
+.content {
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-shadow: 2px 2px 7px rgba(0,0,0,.1), -2px 2px 7px rgba(0,0,0,.1);
+}
+
+#vocabulary {
+    font-family:  sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#vocabulary th {
+	border: 1px solid rgba(0,0,0,.2);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+#vocabulary td {
+	border: 1px solid rgba(0,0,0,.2);
+    padding: 14px 20px;
+    font-size: 1.2em;
+	color: rgba(0,0,0,.6);
+}
+#vocabulary td a {
+	color:  rgba(0,0,0,.6);
+	margin-left: 22px;
+}
+#vocabulary td a:hover {
+	color:  green;
+}
+#vocabulary .fa-trash:hover {
+	color: red;
+}
+
+.edit {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 120px;
+}
+
+.edit h1 {
+	color: dodgerblue;
+	font-weight: 300;
+	margin-left: 20px;
+}
+
+.edit form {
+	position: absolute;
+	padding: 10px 10px;
+	box-shadow: 2px 2px 7px rgba(0,0,0,.1), -2px 2px 7px rgba(0,0,0,.1);
+	background-color: white;
+	top:55px;
+	left: -60px;
+}
+
+.edit form input[type="text"] {
+	margin-bottom: 10px;
+	padding: 6px;
+	font-size: 1.2em;
+}
+
+::placeholder {
+	color: rgba(0,0,0,.2);
+	font-size: 16px;
+}
+.edit form textarea {
+	font-size: 1.2em;
+	font-family: sans-serif;
+	padding: 6px;
+	height:40px;
+	width: 95%;
+	resize: none;
+}
+.edit form button {
+	background-color: dodgerblue;
+	border: 1px solid dodgerblue;
+	border-radius: 3px;
+	padding: 10px 0;
+	font-size: 1.2rem;
+	width: 100%;
+	color: white;
+	margin-top: 5px;
+}
+
+
+
+.excersise {
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.excersise p:nth-child(1) {
+    background:  dodgerblue;
+    color:  white;
+    font-size: 25px;
+    padding: 5px 5px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.excersise h1 {
+    text-align:  center;
+    font-size:  4rem;
+    color: #a12fe0;
+    font-weight: 200;
+}
+
+.excersise {
+    text-align:  center;
+}
+.excersise p {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.excersise input {
+	margin: 0;
+    padding:  8px;
+    font-size: 1.2rem;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 2px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,.2);
+}
+
+.excersise .right {
+	color: green;
+	font-size: 3em;
+	font-weight: 300;
+	margin-top: 40px;
+	transition: 100ms;
+	transform: scale(0);
+}
+
+.excersise .wrong {
+	position: absolute;
+	color: red;
+	font-size: 3em;
+	font-weight: 300;
+	bottom: 0px;
+	left: 60px;
+	transition: 100ms;
+	transform: scale(0);
+}

@@ -1,0 +1,41 @@
+extends ./layout/layoutIndex
+
+block content
+  .header
+    p.logo
+      | Coders
+      span Tokyo
+    .menu
+      ul
+        li
+          a.add-word Add New Word
+          form.sub-menu(action="/my-vocabulary" method="POST") 
+            input(type='text', placeholder='Add New Word', name="word")
+            input(type='text', placeholder='Meaning', name="mean")
+            textarea(name='suggest', placeholder='Suggestion')
+            input(type='submit', value='+')
+        li
+          a(href='/my-vocabulary/excersise') Do Excersise
+    p.title
+      | Total Words: 
+      span= size
+  .content
+    table#vocabulary
+      tbody
+        tr
+          th(style='width:250px') Vocabulary
+          th(style='width:250px') Meaning
+          th Suggestion
+          th(style='width:100px') Edit
+          th(style='width:100px') Delete
+      each voca in vocabulary
+        tr
+          td= voca.word
+          td= voca.mean
+          td= voca.suggest
+          td
+            a(href='/my-vocabulary/edit/' + voca.id)
+              i.fas.fa-quidditch
+          td(method="GET")  
+            a(href='/my-vocabulary/delete/' + voca.id) 
+              i.fas.fa-trash

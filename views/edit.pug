@@ -1,0 +1,25 @@
+extends ./layout/layoutIndex
+
+block content
+  .header
+    p.logo
+      | Coders
+      span Tokyo
+    .menu
+      ul
+        li
+          a.add-word Add New Word
+          form.sub-menu(action="/my-vocabulary" method="POST") 
+            input(type='text', placeholder='Add New Word', name="word")
+            input(type='text', placeholder='Meaning', name="mean")
+            textarea(name='suggest', placeholder='Suggestion')
+            input(type='submit', value='+')
+        li
+          a(href='/my-vocabulary') My Vocabulary
+  .edit
+    h1 Edit.....
+    form.sub-form(action='/my-vocabulary' method="POST" autofocus="true")
+      input(type='text', placeholder='Add New Word', name="word", value=vocas.word)
+      input(type='text', placeholder='Meaning', name="mean", value=vocas.mean)
+      textarea(placeholder='Suggestion', name='suggest')= vocas.suggest
+      button(name="id", value=vocas.id) Edit Now
